@@ -1,0 +1,3 @@
+https://api.twitter.com/2/tweets?ids=967132259869487105,967164368768196609,8980098198,817357627566985217&tweet.fields=created_at,author_id
+
+https://api.twitter.com/2/tweets?ids=967132259869487105,967164368768196609,8980098198,817357627566985217&tweet.fields=attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,possibly_sensitive,referenced_tweets,reply_settings,source,text,withheld
