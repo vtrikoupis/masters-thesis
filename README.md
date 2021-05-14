@@ -8,7 +8,16 @@ ET and REL
 
 ``` conda install -c conda-forge nltk```
 
+``` conda install -c conda-forge python-dotenv ```
+
+```conda install -c anaconda beautifulsoup4  ```
+
+``` conda install -c conda-forge widgetsnbextension ```
+
+``` conda install -c conda-forge ipywidgets ```
+
 ``` python -m spacy download en_core_web_sm ```
+
 
 Docker env defined in .devcontainer
 microsoft-anaconda3 base image
