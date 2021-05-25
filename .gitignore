@@ -1,3 +1,5 @@
 default*.ipynb
 Mallet/
 .env
+processed-data/
+mallet-2.0.8/
