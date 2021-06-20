@@ -60,9 +60,13 @@ def remove_nonalpha(text):
     return res
 
 def remove_mention(text):
-    res = re.sub(pattern='@[^\s]+',repl='',string=text)
+    res = re.sub("@[A-Za-z0-9_]+","", text)
     return res
 
+def remove_hashtag(text):
+    res = re.sub("#[A-Za-z0-9_]+","", text)
+    return res
+    
 def remove_non_ascii(text):
     return text.encode("ascii", errors="ignore").decode()
 
