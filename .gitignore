@@ -4,4 +4,5 @@ Mallet/
 processed-data/
 mallet-2.0.8/
 all_collected_users_en
-*.npy
+preprocessing/real_over_100_non_duplicate.npy
+preprocessing/over_100_non_duplicate.npy
