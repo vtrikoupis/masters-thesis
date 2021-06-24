@@ -80,3 +80,7 @@ def remove_special_words(text):
 def remove_nt(text):
     res = re.sub(r'\ nt ', '', text)
     return res
+
+def strip_list_noempty(mylist):
+    newlist = (item.strip() if hasattr(item, 'strip') else item for item in mylist)
+    return [item for item in newlist if item != '']
