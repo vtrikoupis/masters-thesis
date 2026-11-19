@@ -1,4 +1,4 @@
-FROM condaforge/miniforge3:26.9.4-0@sha256:0a788afa8b54165d855d08552ce6d86e1e2553be2a9a18d542c69cfb02a6deaa
+FROM condaforge/miniforge3:26.9.4-0@sha256:63d72eadf0ab73ee63bad8f5cfdfe1754530415b4aeba99e466e9a6f77ceec95
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/* \
