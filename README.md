@@ -20,7 +20,7 @@ ET and REL
 
 
 Docker env defined in .devcontainer
-microsoft-anaconda3 base image
+Miniforge base image with Python 3.14.10 and Conda.
 todo for container spinup: before apt-get install parts in Dockerfile:
     RUN mkdir -p /usr/share/man/man1 (hack for ubuntu 18.04 java installation)
 

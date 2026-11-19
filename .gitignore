@@ -6,3 +6,4 @@ mallet-2.0.8/
 all_collected_users_en
 preprocessing/real_over_100_non_duplicate.npy
 preprocessing/over_100_non_duplicate.npy
+.venv/
